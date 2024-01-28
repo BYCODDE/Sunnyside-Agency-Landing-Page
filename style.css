@@ -1,18 +1,20 @@
 body {
-  background-repeat: no-repeat;
-  background-size: 100%;
-
-  /* height: 100vh; */
-  /* justify-content: center;
-  align-items: center;  */
-  background-image: url(/images/desktop/image-header.jpg);
+  font-family: "Fraunces", serif !important;
 }
+img {
+  width: 100%;
+}
+
+#header_logo {
+  width: 170px;
+}
+
 .top_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  margin: 10px;
+  padding: 20px;
+  background-color: rgb(73, 188, 241);
 }
 
 .top_container ul {
@@ -20,22 +22,20 @@ body {
   list-style: none;
   gap: 47px;
   color: #fff;
-  font-family: Barlow, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 25px; /* 138.889% */
   letter-spacing: -0.129px;
   align-items: center;
+  font-family: Barlow, sans-serif;
 }
 .top_container a {
   all: unset;
-  font-family: Barlow, sans-serif;
 }
 
 #contact {
   color: #fff;
-  font-family: "Fraunces 9pt Soft", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -51,11 +51,16 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 105px;
+  height: 105vh;
+  background-image: url(/images/desktop/image-header.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 275px;
 }
 #main_h1 {
   color: #fff;
   text-align: center;
-  font-family: "Fraunces 9pt Soft", sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 900;
@@ -64,12 +69,76 @@ body {
   text-transform: uppercase;
 }
 
-.first_section {
-  margin-top: 105px;
-}
-
 #down_arrow {
-  margin-top: 55px;
   width: 30px;
   height: 107.484px;
+}
+
+.second_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+#Transform,#stand_out {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 85px;
+  width: 70%;
+  justify-self: center;
+}
+
+#Transform_your,#stand_out_here {
+  color: #24303e;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.286px;
+}
+
+#Transform_p,#stand_out_p {
+  color: #808397;
+  font-family: Barlow, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.129px;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+#learn_more {
+  color: #24303e;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#egg {
+}
+
+#glass {
+}
+
+#stand_out {
+}
+
+#Cherry {
+  background: url(./images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#Mandarin {
+  background: url(./images/desktop/image-photography.jpg);
+  background-repeat: no-repeat ;
+  width: 100%;
 }

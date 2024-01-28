@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fix.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,900&display=swap");
-      @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
-    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Sunnyside Agency Landing Page</title>
   </head>
   <body>
     <header class="top_container">
-      <img src="./images/logo.svg" alt="Sunnyside_logo" />
+      <img id="header_logo" src="./images/logo.svg" alt="Sunnyside_logo" />
       <ul>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
@@ -30,14 +34,55 @@
           alt="down_arrow "
         />
       </section>
+      <section class="second_section">
+        <div id="Transform">
+          <h2 id="Transform_your">Transform your brand</h2>
+          <p id="Transform_p">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a id="learn_more">Learn more</a>
+          <div id="learn_more_div"></div>
+        </div>
+        <div id="egg">
+          <img src="./images/desktop/image-transform.jpg" alt="egg" />
+        </div>
+        <div id="glass">
+          <img src="./images/desktop/image-stand-out.jpg" alt="glass" />
+        </div>
+        <div id="stand_out">
+          <h2 id="stand_out_here">Stand out to the right audience</h2>
+          <p id="stand_out_p">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a id="learn_more">Learn more</a>
+          <div id="learn_more_div2"></div>
+        </div>
+        <div id="Cherry">
+          <!-- <img src="./images/desktop/image-graphic-design.jpg" alt="cherry"> -->
+          <h2 id="Graphic_design">Graphic design</h2>
+          <p id="Cherry_p">
+            Great design makes you memorable. We deliver artwork that underscores
+            your brand message and captures potential clients’ attention.
+          </p>
+
+        </div>
+        <div id="Mandarin">
+          <!-- <img src="./images/desktop/image-photography.jpg" alt="Mandarin"> -->
+          <h2 id="Photography">Photography</h2>
+          <p id="Mandarin_p">
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+
+
+        </div>
+      </section>
     </main>
 
-    <div class="bottom_container">
-      <div class="main_adds"></div>
-      <div class="CLIENT_TESTIMONIALS"></div>
-      <div class="midi_adds"></div>
-      <!-- #FIXME: ar vici bolo divi minda tu ara -->
-      <div class="social_media"></div>
-    </div>
+    <!-- #TODO: საიტი გავაგრძელო და გრიდს დავუთმო კიდევ დრო,რომ დავამუღამო და ნიკას მიერ ნათქვამ ტექნიკაც გამოვიყენო -->
   </body>
 </html>
