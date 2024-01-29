@@ -1,5 +1,5 @@
 body {
-  font-family: "Fraunces", serif !important;
+  font-family: "Fraunces 9pt Soft",sans-serif !important;
 }
 img {
   width: 100%;
@@ -53,7 +53,7 @@ img {
   flex-direction: column;
   padding-top: 105px;
   height: 105vh;
-  background-image: url(/images/desktop/image-header.jpg) ;
+  background-image: url(/images/desktop/image-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 275px;
@@ -82,7 +82,8 @@ img {
   grid-row-gap: 0px;
 }
 
-#Transform,#stand_out {
+#Transform,
+#stand_out {
   justify-self: center;
   display: flex;
   flex-direction: column;
@@ -92,7 +93,8 @@ img {
   justify-self: center;
 }
 
-#Transform_your,#stand_out_here {
+#Transform_your,
+#stand_out_here {
   color: #24303e;
   font-size: 40px;
   font-style: normal;
@@ -101,7 +103,8 @@ img {
   letter-spacing: -0.286px;
 }
 
-#Transform_p,#stand_out_p {
+#Transform_p,
+#stand_out_p {
   color: #808397;
   font-family: Barlow, sans-serif;
   font-size: 18px;
@@ -122,14 +125,11 @@ img {
   text-transform: uppercase;
 }
 
-#egg {
+/* #egg {
 }
 
 #glass {
-}
-
-#stand_out {
-}
+} */
 
 #Cherry {
   background: url(./images/desktop/image-graphic-design.jpg);
@@ -137,8 +137,69 @@ img {
   width: 100%;
 }
 
+#Graphic_design {
+  color: #24554a;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.2px;
+}
+
+#Cherry_p {
+  color: #24554A;
+  text-align: center;
+  font-family: Barlow,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px; /* 168.75% */
+  letter-spacing: -0.114px;
+}
+
 #Mandarin {
   background: url(./images/desktop/image-photography.jpg);
-  background-repeat: no-repeat ;
+  background-repeat: no-repeat;
   width: 100%;
+}
+
+#Photography {
+  color: #052c3b;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  opacity: 0.75;
+}
+
+#Mandarin_p {
+  color: #19536C;
+  text-align: center;
+  font-family: Barlow,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px; /* 168.75% */
+  letter-spacing: -0.114px;
+}
+
+#Cherry,
+#Mandarin {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-self: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0px 146px;
+}
+#Graphic_design,
+#Photography {
+  margin-bottom: 27px;
+  margin-top: 300px;
 }
