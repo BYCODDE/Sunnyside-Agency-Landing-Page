@@ -1,6 +1,5 @@
 body {
   font-family: "Fraunces 9pt Soft", sans-serif !important;
-  
 }
 img {
   width: 100%;
@@ -26,7 +25,7 @@ img {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 25px; /* 138.889% */
+  line-height: 25px; 
   letter-spacing: -0.129px;
   align-items: center;
   font-family: Barlow, sans-serif;
@@ -41,7 +40,7 @@ img {
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
-  line-height: 25px; /* 166.667% */
+  line-height: 25px;
   letter-spacing: -0.107px;
   text-transform: uppercase;
   padding: 16px 30px 15px 32px;
@@ -128,12 +127,6 @@ img {
   cursor: pointer;
 }
 
-/* #egg {
-}
-
-#glass {
-} */
-
 #Cherry {
   background: url(./images/desktop/image-graphic-design.jpg);
   background-repeat: no-repeat;
@@ -157,7 +150,7 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 27px; /* 168.75% */
+  line-height: 27px;
   letter-spacing: -0.114px;
 }
 
@@ -185,7 +178,7 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 27px; /* 168.75% */
+  line-height: 27px;
   letter-spacing: -0.114px;
 }
 
@@ -245,7 +238,7 @@ img {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px; /* 177.778% */
+  line-height: 32px; 
   letter-spacing: -0.129px;
 }
 
@@ -267,7 +260,7 @@ img {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: 25px; /* 178.571% */
+  line-height: 25px; 
   letter-spacing: -0.1px;
   margin-top: 10px;
 }
@@ -315,7 +308,7 @@ img {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 25px; /* 138.889% */
+  line-height: 25px;
   letter-spacing: -0.129px;
   background: none;
   cursor: pointer;
@@ -328,11 +321,13 @@ img {
   justify-content: center;
   align-items: center;
 }
-.logos img:hover  {
+.logos img:hover {
   transform: scale(1.1);
   fill: #fff;
   cursor: pointer;
 }
 .services button:hover {
+  cursor: pointer;
   color: #fff;
+  transform: scale(1.1);
 }
