@@ -25,7 +25,7 @@ img {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 25px; 
+  line-height: 25px;
   letter-spacing: -0.129px;
   align-items: center;
   font-family: Barlow, sans-serif;
@@ -52,12 +52,12 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 105px;
+  /* padding-top: 105px; */
   height: 105vh;
   background-image: url(/images/desktop/image-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 275px;
+  padding-bottom: 155px;
 }
 #main_h1 {
   color: #fff;
@@ -71,6 +71,7 @@ img {
 }
 
 #down_arrow {
+  margin-top: 235px;
   width: 30px;
   height: 107.484px;
 }
@@ -238,7 +239,7 @@ img {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px; 
+  line-height: 32px;
   letter-spacing: -0.129px;
 }
 
@@ -260,7 +261,7 @@ img {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: 25px; 
+  line-height: 25px;
   letter-spacing: -0.1px;
   margin-top: 10px;
 }
@@ -330,4 +331,36 @@ img {
   cursor: pointer;
   color: #fff;
   transform: scale(1.1);
+}
+
+#learn_moremaindiv {
+  position: relative;
+}
+#learn_more {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+}
+#learn_more_div {
+  border-radius: 28px;
+  background: #fad400;
+  width: 137px;
+  height: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 3px;
+  z-index: 0;
+}
+#learn_more_div2 {
+  border-radius: 28px;
+  background: #fe7766;
+  width: 137px;
+  height: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 3px;
+  z-index: 0;
 }
