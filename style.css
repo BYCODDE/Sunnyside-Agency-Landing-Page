@@ -35,6 +35,12 @@ img {
   all: unset;
 }
 
+#hamburger_menu{
+  display: none;
+ fill: #FFF;
+opacity: 0.5;
+}
+
 #contact {
   color: #fff;
   font-size: 15px;
@@ -52,7 +58,6 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* padding-top: 105px; */
   height: 105vh;
   background-image: url(/images/desktop/image-header.jpg);
   background-repeat: no-repeat;
@@ -444,4 +449,13 @@ img {
   #Mandarin {
     padding: 30px 0;
   }
+
+  #hamburger_menu{
+    display: block;
+  }
+  #testimonials{
+    font-size: 16px;
+  }
+
+
 }
