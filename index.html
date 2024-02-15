@@ -18,15 +18,32 @@
   <body>
     <header class="top_container">
       <img id="header_logo" src="./images/logo.svg" alt="Sunnyside_logo" />
-      <svg  id="hamburger_menu" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18" fill="none">
-        <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H24V2H0V0ZM0 8H24V10H0V8ZM24 16H0V18H24V16Z" fill="white"/>
-      </svg>
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a id="contact" href="#">Contact</a></li>
-      </ul>
+      <button id="menu-toggle" class="menu-icon">
+        <svg
+          id="hamburger_menu"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="18"
+          viewBox="0 0 24 18"
+          fill="none"
+        >
+          <path
+            opacity="0.5"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0 0H24V2H0V0ZM0 8H24V10H0V8ZM24 16H0V18H24V16Z"
+            fill="white"
+          />
+        </svg>
+      </button>
+      <nav class="main-menu">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a id="contact" href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main class="main_container">
       <section class="first_section">
@@ -144,5 +161,6 @@
         <img src="./images/icon-pinterest.svg" alt="pinterest" />
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
