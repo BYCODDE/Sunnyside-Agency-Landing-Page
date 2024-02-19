@@ -53,7 +53,7 @@ img {
   align-items: center;
   flex-direction: column;
   height: 105vh;
-  background-image: url(/images/desktop/image-header.jpg);
+  background-image: url(./images/desktop/image-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 155px;
@@ -364,11 +364,7 @@ img {
   z-index: 0;
 }
 
-/* .main-menu {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-} */
+
 .menu-icon {
   background: none;
   border: none;
