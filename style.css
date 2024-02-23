@@ -504,7 +504,17 @@ background: #FBD600;
  .main-menu{
   display: none;
  }
+
+ .right-triangle {
+  width: 0;
+  height: 0;
+  border-right: 24px solid #FFFCF8; 
+  border-bottom: 24px solid transparent;
+  transform: rotate(90deg);
+  position: absolute;
+    top: -24px;
+    right: 0;
+}
+
 } 
-  /* .top_container ul li {
-    margin: 10px 0;
-  }
+  
